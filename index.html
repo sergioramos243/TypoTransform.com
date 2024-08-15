@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Changer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Font Changer</h1>
+        <textarea id="userText" placeholder="Enter your text here..."></textarea>
+
+        <label for="fontSelect">Choose a font:</label>
+        <select id="fontSelect">
+            <option value="Arial">Arial</option>
+            <option value="Courier New">Courier New</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Verdana">Verdana</option>
+        </select>
+
+        <button id="changeFontButton">Change Font</button>
+
+        <h2>Preview:</h2>
+        <div id="textPreview" class="text-preview">
+            Your text will appear here...
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
